@@ -1,0 +1,15 @@
+{
+  "revision": 115,
+  "version": "1.0.07",
+  "notes": "TiviMateE2 1.0.07 - Python 3 release with UI, search, TMDb and stability improvements.",
+  "packages": {
+    "ipk": {
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.07_all.ipk",
+      "sha256": "c85cd8ce27e6ea144f3e517fcd9f3c5a3a58d94027556aa7d46c00e592b44df6"
+    },
+    "deb": {
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.07_all.deb",
+      "sha256": "47332983510067272c07bcdea646573b81e485fcbc097722045602c0fb1f0839"
+    }
+  }
+}
