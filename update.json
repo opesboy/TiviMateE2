@@ -1,15 +1,15 @@
 {
-  "revision": 115,
-  "version": "1.0.07",
-  "notes": "TiviMateE2 1.0.07 - Python 3 release with UI, search, TMDb and stability improvements.",
+  "revision": 116,
+  "version": "1.0.08",
+  "notes": "TiviMateE2 1.0.08 - Update 116 with Xtream, Stalker and M3U improvements, TMDb enhancements, package logos, caching, UI refinements and stability fixes.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.07_all.ipk",
-      "sha256": "b2475ebe086b863b5a4c61803be2d706335def1534202255ec1678832764f954"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.08_all.ipk",
+      "sha256": "212142c7eeb094ff3c3260db6b8fb2cd1991958d1cad1082b2b11671d96875d3"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.07_all.deb",
-      "sha256": "72393a5d8da5489db85ea305863d1eb66c26d42241b34d37536dbfa0b582fa89"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.08_all.deb",
+      "sha256": "637f72f4d96827a73f8ca39459a84e3af4b447e376170dda45bb3a8f0e3e9f46"
     }
   }
 }
