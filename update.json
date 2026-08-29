@@ -1,15 +1,1 @@
-{
-  "revision": 118,
-  "version": "1.0.09",
-  "notes": "TiviMateE2 1.0.09 - Update 118 with online update fixes and improved package detection.",
-  "packages": {
-    "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.09_all.ipk",
-      "sha256": "55475c13d870565963a12d4803f055e6378fbacb3d1d4c152c1874b1d2d13098"
-    },
-    "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.09_all.deb",
-      "sha256": "be4aff8013614c6e791d84cc2f6fd45a7496341c62add8c162079ffabb5d181a"
-    }
-  }
-}
+
