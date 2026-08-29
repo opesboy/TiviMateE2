@@ -1,7 +1,7 @@
 {
-  "revision": 117,
+  "revision": 118,
   "version": "1.0.09",
-  "notes": "TiviMateE2 1.0.09 - Update 117 with Xtream source deduplication, improved player stability, organized UI and player code, subtitle and image cache improvements, original package sorting, lazy package logo loading, UI refinements and stability fixes.",
+  "notes": "TiviMateE2 1.0.09 - Update 118 with online update fixes and improved package detection.",
   "packages": {
     "ipk": {
       "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.09_all.ipk",
