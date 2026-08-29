@@ -1,15 +1,15 @@
 {
-  "revision": 116,
-  "version": "1.0.08",
-  "notes": "TiviMateE2 1.0.08 - Update 116 with Xtream, Stalker and M3U improvements, TMDb enhancements, package logos, caching, UI refinements and stability fixes.",
+  "revision": 117,
+  "version": "1.0.09",
+  "notes": "TiviMateE2 1.0.09 - Update 117 with Xtream source deduplication, improved player stability, organized UI and player code, subtitle and image cache improvements, original package sorting, lazy package logo loading, UI refinements and stability fixes.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.08_all.ipk",
-      "sha256": "212142c7eeb094ff3c3260db6b8fb2cd1991958d1cad1082b2b11671d96875d3"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.09_all.ipk",
+      "sha256": "55475c13d870565963a12d4803f055e6378fbacb3d1d4c152c1874b1d2d13098"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.08_all.deb",
-      "sha256": "637f72f4d96827a73f8ca39459a84e3af4b447e376170dda45bb3a8f0e3e9f46"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.09_all.deb",
+      "sha256": "be4aff8013614c6e791d84cc2f6fd45a7496341c62add8c162079ffabb5d181a"
     }
   }
 }
