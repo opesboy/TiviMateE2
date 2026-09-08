@@ -5,11 +5,11 @@
   "packages": {
     "ipk": {
       "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.10_all.ipk",
-      "sha256": "10a8905c5af1cd631e9c67ddb3f733cdbc9e8ff1264ae537bfa165381fdceb31"
+      "sha256": "456ffc41eba261a1747dce523296af1bb4b48e26e1d19c0aa67c794c17032026"
     },
     "deb": {
       "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.10_all.deb",
-      "sha256": "00fc31f1f92d1d7e3990015e7076db3b8985a373bdccb6c30f8ec6b1476feb66"
+      "sha256": "32fdf09e92384d33f9a7d63a22de211e874d6c3a80bd7228b1bfca5a7a7a21a3"
     }
   }
 }
