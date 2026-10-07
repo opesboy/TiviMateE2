@@ -1,15 +1,15 @@
 {
-  "revision": 125,
-  "version": "1.0.17",
-  "notes": "TiviMateE2 1.0.17 - Update 125",
+  "revision": 126,
+  "version": "1.0.18",
+  "notes": "TiviMateE2 1.0.18 - Update 126",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.17_all.ipk",
-      "sha256": "c7bf36906def96e53e5175ce90eaef4d1703eb00745220afed7c3c5e491a67bb"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.18_all.ipk",
+      "sha256": "f27398e472c6387d5f0c80036457aaf81a1126c4b006ab4ddad0c4074448c38b"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.17_all.deb",
-      "sha256": "f1feb3c808a84c725bbf36d6b69a9674ff34c6f6b8d7a28fe1d799999983b011"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.18_all.deb",
+      "sha256": "46a489308a223194c0356fc4e5b4167ec9f0d477014daa1b4e1dbe895556f0b0"
     }
   }
 }
