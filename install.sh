@@ -1,11 +1,10 @@
 
-
 #!/bin/sh
 set -e
 
 BASE="https://raw.githubusercontent.com/opesboy/TiviMateE2/main"
-IPK="enigma2-plugin-extensions-tivimatee2_1.0.20_all.ipk"
-DEB="enigma2-plugin-extensions-tivimatee2_1.0.20_all.deb"
+IPK="enigma2-plugin-extensions-tivimatee2_1.0.21_all.ipk"
+DEB="enigma2-plugin-extensions-tivimatee2_1.0.21_all.deb"
 
 if command -v opkg >/dev/null 2>&1; then
     wget -qO "/tmp/$IPK" "$BASE/$IPK"
