@@ -1,16 +1,16 @@
 
 {
-  "revision": 129,
-  "version": "1.0.21",
-  "notes": "TiviMateE2 1.0.21 - Update 129",
+  "revision": 130,
+  "version": "1.0.22",
+  "notes": "TiviMateE2 1.0.22 - Update 130 - Live subtitle exit crash cleanup and latest fixes",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.21_all.ipk",
-      "sha256": "92e9ba89c783a5f480232d4b5ec57a5b466208b299bf389e48e583c171e798a2"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.22_all.ipk",
+      "sha256": "a5eb7a75058a101045590742b4ea9e0ed58b81036714511d32429a68cae26ccb"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.21_all.deb",
-      "sha256": "893cc1bb4d901b7b9f7253710c6fbc21931f2d8357ebdd123d968f2e116668bf"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.22_all.deb",
+      "sha256": "9ec24cd9675e764c99c3dbd23a9445cc5acab7ef501c172796ce2c3efaa01f43"
     }
   }
 }
