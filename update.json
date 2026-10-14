@@ -1,16 +1,15 @@
-
 {
-  "revision": 130,
-  "version": "1.0.22",
-  "notes": "TiviMateE2 1.0.22 - Update 130 - Live subtitle exit crash cleanup and latest fixes",
+  "revision": 131,
+  "version": "1.0.23",
+  "notes": "TiviMateE2 1.0.23 - Update 131 - Cache improvements, UltraStalker and original EPG",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.22_all.ipk",
-      "sha256": "a5eb7a75058a101045590742b4ea9e0ed58b81036714511d32429a68cae26ccb"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.23_all.ipk",
+      "sha256": "f027459d7cf239ed5d73582dfda2c5f7a452312b3c66e8cb26755e31800fcffd"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.22_all.deb",
-      "sha256": "9ec24cd9675e764c99c3dbd23a9445cc5acab7ef501c172796ce2c3efaa01f43"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.23_all.deb",
+      "sha256": "2f43bdb5290efaa72365df4fbf2478dfbd5c1d73df3365075e8fe9be3c43046a"
     }
   }
 }
