@@ -1,15 +1,16 @@
+
 {
-  "revision": 131,
-  "version": "1.0.23",
-  "notes": "TiviMateE2 1.0.23 - Update 131 - Cache improvements, UltraStalker and original EPG",
+  "revision": 132,
+  "version": "1.0.24",
+  "notes": "TiviMateE2 1.0.24 - Update 132 - Stable artwork and update check",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.23_all.ipk",
-      "sha256": "f027459d7cf239ed5d73582dfda2c5f7a452312b3c66e8cb26755e31800fcffd"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.24_all.ipk",
+      "sha256": "542074404a331fff8b484883dfec374ca7501effb87cfcf554656b92b7df9cc0"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.23_all.deb",
-      "sha256": "2f43bdb5290efaa72365df4fbf2478dfbd5c1d73df3365075e8fe9be3c43046a"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.24_all.deb",
+      "sha256": "542074404a331fff8b484883dfec374ca7501effb87cfcf554656b92b7df9cc0"
     }
   }
 }
