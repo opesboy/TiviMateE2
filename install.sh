@@ -1,10 +1,11 @@
+
 #!/bin/sh
 set -eu
 
 BASE="https://raw.githubusercontent.com/opesboy/TiviMateE2/main"
-IPK="enigma2-plugin-extensions-tivimatee2_1.0.25_all.ipk"
-DEB="enigma2-plugin-extensions-tivimatee2_1.0.25_all.deb"
-SHA256="478f1a9f5568d8c9659c48847738cceedfce11ab1c2848f35c9908a5e3f2b4d8"
+IPK="enigma2-plugin-extensions-tivimatee2_1.0.26_all.ipk"
+DEB="enigma2-plugin-extensions-tivimatee2_1.0.26_all.deb"
+SHA256="503ee93e6681eb46f3e5884c763e9b753bd0b8bcd37c0ead786ae67ab95bace9"
 
 if command -v opkg >/dev/null 2>&1; then
     PACKAGE="$IPK"
@@ -47,4 +48,4 @@ else
     dpkg -i "$PACKAGE_PATH"
 fi
 
-echo "TiviMateE2 1.0.25-r133 installed successfully"
+echo "TiviMateE2 1.0.26-r134 installed successfully"
