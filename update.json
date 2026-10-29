@@ -1,16 +1,16 @@
 
 {
-  "revision": 132,
-  "version": "1.0.24",
-  "notes": "TiviMateE2 1.0.24 - Update 132 - Stable artwork and update check",
+  "revision": 133,
+  "version": "1.0.25",
+  "notes": "TiviMateE2 1.0.25 - Update 133 - Version display correction",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.24_all.ipk",
-      "sha256": "542074404a331fff8b484883dfec374ca7501effb87cfcf554656b92b7df9cc0"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.25_all.ipk",
+      "sha256": "478f1a9f5568d8c9659c48847738cceedfce11ab1c2848f35c9908a5e3f2b4d8"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.24_all.deb",
-      "sha256": "542074404a331fff8b484883dfec374ca7501effb87cfcf554656b92b7df9cc0"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.25_all.deb",
+      "sha256": "478f1a9f5568d8c9659c48847738cceedfce11ab1c2848f35c9908a5e3f2b4d8"
     }
   }
 }
