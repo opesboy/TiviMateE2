@@ -1,16 +1,16 @@
 
 {
-  "revision": 133,
-  "version": "1.0.25",
-  "notes": "TiviMateE2 1.0.25 - Update 133 - Version display correction",
+  "revision": 134,
+  "version": "1.0.26",
+  "notes": "TiviMateE2 1.0.26 - Update 134 - SQLite compatibility fix",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.25_all.ipk",
-      "sha256": "478f1a9f5568d8c9659c48847738cceedfce11ab1c2848f35c9908a5e3f2b4d8"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.26_all.ipk",
+      "sha256": "503ee93e6681eb46f3e5884c763e9b753bd0b8bcd37c0ead786ae67ab95bace9"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.25_all.deb",
-      "sha256": "478f1a9f5568d8c9659c48847738cceedfce11ab1c2848f35c9908a5e3f2b4d8"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.26_all.deb",
+      "sha256": "503ee93e6681eb46f3e5884c763e9b753bd0b8bcd37c0ead786ae67ab95bace9"
     }
   }
 }
