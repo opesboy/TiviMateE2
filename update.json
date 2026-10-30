@@ -1,16 +1,16 @@
 
 {
-  "revision": 134,
-  "version": "1.0.26",
-  "notes": "TiviMateE2 1.0.26 - Update 134 - SQLite compatibility fix",
+  "revision": 135,
+  "version": "1.0.27",
+  "notes": "TiviMateE2 1.0.27 - Update 135 - Finder loading state, Movies/Series bounded background wait, silent Recent Add",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.26_all.ipk",
-      "sha256": "503ee93e6681eb46f3e5884c763e9b753bd0b8bcd37c0ead786ae67ab95bace9"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.27_all.ipk",
+      "sha256": "96f99a56d5f1c24db94a19912c56dc601828869467e795c1f8a0505162446e72"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.26_all.deb",
-      "sha256": "503ee93e6681eb46f3e5884c763e9b753bd0b8bcd37c0ead786ae67ab95bace9"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.27_all.deb",
+      "sha256": "96f99a56d5f1c24db94a19912c56dc601828869467e795c1f8a0505162446e72"
     }
   }
 }
