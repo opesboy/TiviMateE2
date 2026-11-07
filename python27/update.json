@@ -1,0 +1,17 @@
+{
+  "channel": "python27",
+  "package_id": "enigma2-plugin-extensions-tivimatee2-py27",
+  "version": "1.0.1",
+  "enabled": true,
+  "notes": "TiviMateE2 Python 2.7 - 1.0.1 - independent DreamOS update channel.",
+  "packages": {
+    "ipk": {
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.1_all.ipk",
+      "sha256": "34264e8473b257ad81fa036c2dd56e06d3d259266dc111324b318d6507036a95"
+    },
+    "deb": {
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.1_all.deb",
+      "sha256": "c472f47cbda71e79f0da5ead036a4f486cec81fec2eca2140955d582a4168ecd"
+    }
+  }
+}
