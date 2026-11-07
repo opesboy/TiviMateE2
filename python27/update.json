@@ -1,17 +1,17 @@
 {
   "channel": "python27",
   "package_id": "enigma2-plugin-extensions-tivimatee2-py27",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "enabled": true,
-  "notes": "TiviMateE2 Python 2.7 - 1.0.1 - independent DreamOS update channel.",
+  "notes": "1.0.2 - Independent page servers, Continue Watching backdrop fixes. Restored previous Movies/Series title logo rendering.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.1_all.ipk",
-      "sha256": "34264e8473b257ad81fa036c2dd56e06d3d259266dc111324b318d6507036a95"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.2_all.ipk",
+      "sha256": "2b72dba4176f0915fe62a5eebbcbc47d4e90797bb5a060e6687ac2081582e57d"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.1_all.deb",
-      "sha256": "c472f47cbda71e79f0da5ead036a4f486cec81fec2eca2140955d582a4168ecd"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.2_all.deb",
+      "sha256": "2b72dba4176f0915fe62a5eebbcbc47d4e90797bb5a060e6687ac2081582e57d"
     }
   }
 }
