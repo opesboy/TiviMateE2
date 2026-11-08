@@ -1,15 +1,15 @@
 {
-  "revision": 136,
-  "version": "1.0.28",
-  "notes": "TiviMateE2 1.0.28 - Update 136 - UI improvements, Cinematic fixes and package cleanup",
+  "revision": 137,
+  "version": "1.0.29",
+  "notes": "TiviMateE2 1.0.29 - Update 137 - One package for Python 3 and Python 2.7, WQHD support, faster Stalker login, Finder portal/MAC fix.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.28_all.ipk",
-      "sha256": "8cbbedac2876bf73cff4f56391bdce4a9ad12f67c19d7c812f8634a0b280f68e"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.29_all.ipk",
+      "sha256": "8de3d225ba4d4d31cd3a44b03da0524567e4ee20f2f3c2ce75aa4e5a17164735"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.28_all.deb",
-      "sha256": "e2f556581b15f10e60816814b3ff475cd9d6d56ef3300b484b3e6e8626ef1055"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.29_all.deb",
+      "sha256": "464286f6099c40e10c1819acd51f3d092b23c8ab88a72588908b960bae14e649"
     }
   }
 }
