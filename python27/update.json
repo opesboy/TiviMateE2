@@ -1,17 +1,17 @@
 {
   "channel": "python27",
   "package_id": "enigma2-plugin-extensions-tivimatee2-py27",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "enabled": true,
-  "notes": "1.0.2 - Independent page servers, Continue Watching backdrop fixes. Restored previous Movies/Series title logo rendering.",
+  "notes": "1.0.3 - Full VTi Python 2.7 support: logos, actors, Stalker, subtitles (blue key), movie player, circle posters. Faster loading and cleanup of unused images.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.2_all.ipk",
-      "sha256": "2b72dba4176f0915fe62a5eebbcbc47d4e90797bb5a060e6687ac2081582e57d"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.3_all.ipk",
+      "sha256": "0847262638da48e702b28eb2a503e862a54e46252beb92d85137b77ee1ded320"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.2_all.deb",
-      "sha256": "2b72dba4176f0915fe62a5eebbcbc47d4e90797bb5a060e6687ac2081582e57d"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/python27/enigma2-plugin-extensions-tivimatee2-py27_1.0.3_all.deb",
+      "sha256": "d8db2300628125445a9727c5df6f38fec814fef05e373edb8e4aa9cdd1a67d11"
     }
   }
 }
