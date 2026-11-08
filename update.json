@@ -1,15 +1,15 @@
 {
-  "revision": 138,
-  "version": "1.0.30",
-  "notes": "TiviMateE2 1.0.30 - Update 138 - Fix crash on DreamOS/Merlin/Gemini skins without a Bold font, Python 3 + 2.7 in one package, WQHD support.",
+  "revision": 139,
+  "version": "1.0.31",
+  "notes": "TiviMateE2 1.0.31 - Update 139 - Web Access QR login fix, OpenPLi support (Stalker, TMDb, posters, subtitles, auto-install of libraries), transparent logos, Bold font crash fix, Python 3 + 2.7, WQHD.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.30_all.ipk",
-      "sha256": "07726c87413f49e4f392c6b984c25d7f6a637953631e816d110bb778601cdaf3"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.31_all.ipk",
+      "sha256": "c5d06c7c0a48f7004b7a522f831f89b5f5a5afcc7eb053cf216b117bf29b9f48"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.30_all.deb",
-      "sha256": "b9110e01892315c7cb3d6d7f65b96dd6f6bb31c7cf0162b9bca78d762a2c9cf5"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.31_all.deb",
+      "sha256": "673e235180ba992ead23cb93168853b9b0a86490a896e2d00499a95ffd9108a6"
     }
   }
 }
