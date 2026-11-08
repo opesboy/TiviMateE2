@@ -1,4 +1,3 @@
-
 #!/bin/sh
 # TiviMateE2 Python 2.7 - Independent Installer
 # DreamOS DEB / Enigma2 IPK
@@ -77,6 +76,19 @@ download() {
         curl -fsSL -o "$2" "$1" &&
             [ -s "$2" ] && return 0
     fi
+    # VTi / old images: BusyBox wget has no HTTPS and curl may be missing.
+    if [ -n "$PYTHON" ]; then
+        "$PYTHON" - "$1" "$2" <<'PYDL' && [ -s "$2" ] && return 0
+import sys
+try:
+    from urllib2 import urlopen, Request
+except ImportError:
+    from urllib.request import urlopen, Request
+req = Request(sys.argv[1], headers={"User-Agent": "TiviMateE2-installer"})
+data = urlopen(req, timeout=60).read()
+open(sys.argv[2], "wb").write(data)
+PYDL
+    fi
     return 1
 }
 
@@ -87,87 +99,4 @@ info "Format: $FORMAT"
 download "$MANIFEST_URL" "$WORKDIR/update.json" ||
     fail "Cannot download update.json."
 
-"$PYTHON" - "$WORKDIR/update.json" "$FORMAT" > "$WORKDIR/info" <<'PY'
-from __future__ import print_function
-import json
-import re
-import sys
-
-with open(sys.argv[1], "rb") as f:
-    data = json.load(f)
-
-fmt = sys.argv[2]
-package = "enigma2-plugin-extensions-tivimatee2-py27"
-
-assert data.get("channel") == "python27"
-assert data.get("package_id") == package
-assert data.get("enabled") is True
-
-version = str(data.get("version", ""))
-assert re.match(r"^[0-9]+\.[0-9]+\.[0-9]+$", version)
-
-entry = data.get("packages", {}).get(fmt, {})
-url = entry.get("url", "")
-sha = entry.get("sha256", "").lower()
-
-expected = (
-    "https://raw.githubusercontent.com/opesboy/"
-    "TiviMateE2/main/python27/"
-    "%s_%s_all.%s" % (package, version, fmt)
-)
-
-assert url == expected
-assert re.match(r"^[a-f0-9]{64}$", sha)
-
-print(version)
-print(url)
-print(sha)
-PY
-
-VERSION="$(sed -n '1p' "$WORKDIR/info")"
-URL="$(sed -n '2p' "$WORKDIR/info")"
-EXPECTED_SHA="$(sed -n '3p' "$WORKDIR/info")"
-
-[ -n "$VERSION" ] || fail "Invalid version."
-[ -n "$URL" ] || fail "Invalid package URL."
-
-PACKAGE="$WORKDIR/${PACKAGE_ID}_${VERSION}_all.${FORMAT}"
-
-info "Version: $VERSION"
-info "Downloading package..."
-
-download "$URL" "$PACKAGE" ||
-    fail "Package download failed."
-
-if command -v sha256sum >/dev/null 2>&1; then
-    ACTUAL_SHA="$(sha256sum "$PACKAGE" | awk '{print $1}')"
-elif command -v openssl >/dev/null 2>&1; then
-    ACTUAL_SHA="$(openssl dgst -sha256 "$PACKAGE" |
-        sed 's/^.*= //')"
-else
-    fail "SHA-256 verification unavailable."
-fi
-
-[ "$ACTUAL_SHA" = "$EXPECTED_SHA" ] ||
-    fail "SHA-256 mismatch. Installation cancelled."
-
-info "SHA-256 verified."
-
-if [ "$FORMAT" = "deb" ]; then
-    if command -v dpkg-deb >/dev/null 2>&1; then
-        INTERNAL_ID="$(dpkg-deb -f "$PACKAGE" Package)"
-        [ "$INTERNAL_ID" = "$PACKAGE_ID" ] ||
-            fail "Incorrect package identifier."
-    fi
-
-    info "Installing DEB..."
-    dpkg -i "$PACKAGE" ||
-        fail "DEB installation failed."
-else
-    info "Installing IPK..."
-    opkg install "$PACKAGE" ||
-        fail "IPK installation failed."
-fi
-
-info "Installation completed: $VERSION"
-info "Please restart Enigma2 GUI."
+"$PYTHON" - "$WORKDIR/update.json" "$FORMAT" > "$WORKDIR/inf
