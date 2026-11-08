@@ -1,15 +1,15 @@
 {
-  "revision": 137,
-  "version": "1.0.29",
-  "notes": "TiviMateE2 1.0.29 - Update 137 - One package for Python 3 and Python 2.7, WQHD support, faster Stalker login, Finder portal/MAC fix.",
+  "revision": 138,
+  "version": "1.0.30",
+  "notes": "TiviMateE2 1.0.30 - Update 138 - Fix crash on DreamOS/Merlin/Gemini skins without a Bold font, Python 3 + 2.7 in one package, WQHD support.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.29_all.ipk",
-      "sha256": "8de3d225ba4d4d31cd3a44b03da0524567e4ee20f2f3c2ce75aa4e5a17164735"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.30_all.ipk",
+      "sha256": "07726c87413f49e4f392c6b984c25d7f6a637953631e816d110bb778601cdaf3"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.29_all.deb",
-      "sha256": "464286f6099c40e10c1819acd51f3d092b23c8ab88a72588908b960bae14e649"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.30_all.deb",
+      "sha256": "b9110e01892315c7cb3d6d7f65b96dd6f6bb31c7cf0162b9bca78d762a2c9cf5"
     }
   }
 }
