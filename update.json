@@ -1,15 +1,15 @@
 {
-  "revision": 140,
-  "version": "1.0.32",
-  "notes": "TiviMateE2 1.0.32 - Update 140 - App font changer (sidebar + Appearance), subtitle font change fix, working subtitle providers (Ytssubs, Subtitlecat Arabic), server/downloaded subtitle switching, resume playback, Movie Parts + Other Sources with posters and cache, centred title logos, TMDb for foreign-language servers, Python 2.7/VTi fixes, Python 3 + 2.7.",
+  "revision": 142,
+  "version": "1.0.33",
+  "notes": "TiviMateE2 1.0.33 - Update 142 - App font changer (sidebar + Appearance), subtitle font change fix, working subtitle providers (Ytssubs, Subtitlecat Arabic), server/downloaded subtitle switching, resume playback, Movie Parts + Other Sources with posters and cache, centred title logos, TMDb for foreign-language servers, Python 2.7/VTi fixes, faster app start (cached UI), Web Access login fix, Catch-up package on Python 2.7, Python 3 + 2.7.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.32_all.ipk",
-      "sha256": "42513d7d4349c04e7d661a44fbfd5105304ec530f05a78dc7d60fee596e949f1"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.33_all.ipk",
+      "sha256": "44964a764ddff739f4ed552cb8a0a82870eac6cdbb388af0c1281ed3f01ab062"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.32_all.deb",
-      "sha256": "06a02501a6c1044284bbf08ce8fb8859b5000225e88b81773830fa939e814649"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.33_all.deb",
+      "sha256": "18eec7e5144f5ccdb6d8d026609f8f93fb580d6c29b8b7a5ea707beabed02e8d"
     }
   }
 }
