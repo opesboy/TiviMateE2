@@ -15,4 +15,15 @@ if command -v dpkg >/dev/null 2>&1; then F="$DEB"; S="$DEB_SHA256"; else F="$IPK
 P="/tmp/$F"
 
 wget --no-check-certificate -q -O "$P" "$BASE/$F" || curl -k -L -s -o "$P" "$BASE/$F"
-[ "$(sha256sum "$P" | aw
+[ "$(sha256sum "$P" | awk '{print $1}')" = "$S" ] || { echo "Checksum error"; rm -f "$P"; exit 1; }
+
+if command -v dpkg >/dev/null 2>&1; then
+    dpkg -i --force-overwrite "$P" || apt-get -f -y install
+else
+    opkg install --force-reinstall --force-overwrite "$P"
+fi
+rm -f "$P"
+
+echo "TiviMateE2 1.0.33-r142 installed. Restarting Enigma2..."
+sleep 2
+killall -9 enigma2 || true
