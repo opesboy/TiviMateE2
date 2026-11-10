@@ -1,29 +1,18 @@
 #!/bin/sh
 set -eu
 
-# TiviMateE2 Installer — Version 1.0.32-r140 (Python 3 + Python 2.7)
+# TiviMateE2 Installer — Version 1.0.33-r142 (Python 3 + Python 2.7)
 
 BASE="https://raw.githubusercontent.com/opesboy/TiviMateE2/main"
 
-IPK="enigma2-plugin-extensions-tivimatee2_1.0.32_all.ipk"
-DEB="enigma2-plugin-extensions-tivimatee2_1.0.32_all.deb"
+IPK="enigma2-plugin-extensions-tivimatee2_1.0.33_all.ipk"
+DEB="enigma2-plugin-extensions-tivimatee2_1.0.33_all.deb"
 
-IPK_SHA256="42513d7d4349c04e7d661a44fbfd5105304ec530f05a78dc7d60fee596e949f1"
-DEB_SHA256="06a02501a6c1044284bbf08ce8fb8859b5000225e88b81773830fa939e814649"
+IPK_SHA256="44964a764ddff739f4ed552cb8a0a82870eac6cdbb388af0c1281ed3f01ab062"
+DEB_SHA256="18eec7e5144f5ccdb6d8d026609f8f93fb580d6c29b8b7a5ea707beabed02e8d"
 
 if command -v dpkg >/dev/null 2>&1; then F="$DEB"; S="$DEB_SHA256"; else F="$IPK"; S="$IPK_SHA256"; fi
 P="/tmp/$F"
 
 wget --no-check-certificate -q -O "$P" "$BASE/$F" || curl -k -L -s -o "$P" "$BASE/$F"
-[ "$(sha256sum "$P" | awk '{print $1}')" = "$S" ] || { echo "Checksum error"; rm -f "$P"; exit 1; }
-
-if command -v dpkg >/dev/null 2>&1; then
-    dpkg -i --force-overwrite "$P" || apt-get -f -y install
-else
-    opkg install --force-reinstall --force-overwrite "$P"
-fi
-rm -f "$P"
-
-echo "TiviMateE2 1.0.32-r140 installed. Restarting Enigma2..."
-sleep 2
-killall -9 enigma2 || true
+[ "$(sha256sum "$P" | aw
