@@ -1,15 +1,15 @@
 {
-  "revision": 139,
-  "version": "1.0.31",
-  "notes": "TiviMateE2 1.0.31 - Update 139 - Web Access QR login fix, OpenPLi support (Stalker, TMDb, posters, subtitles, auto-install of libraries), transparent logos, Bold font crash fix, Python 3 + 2.7, WQHD.",
+  "revision": 140,
+  "version": "1.0.32",
+  "notes": "TiviMateE2 1.0.32 - Update 140 - App font changer (sidebar + Appearance), subtitle font change fix, working subtitle providers (Ytssubs, Subtitlecat Arabic), server/downloaded subtitle switching, resume playback, Movie Parts + Other Sources with posters and cache, centred title logos, TMDb for foreign-language servers, Python 2.7/VTi fixes, Python 3 + 2.7.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.31_all.ipk",
-      "sha256": "c5d06c7c0a48f7004b7a522f831f89b5f5a5afcc7eb053cf216b117bf29b9f48"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.32_all.ipk",
+      "sha256": "42513d7d4349c04e7d661a44fbfd5105304ec530f05a78dc7d60fee596e949f1"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.31_all.deb",
-      "sha256": "673e235180ba992ead23cb93168853b9b0a86490a896e2d00499a95ffd9108a6"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.32_all.deb",
+      "sha256": "06a02501a6c1044284bbf08ce8fb8859b5000225e88b81773830fa939e814649"
     }
   }
 }
