@@ -1,15 +1,15 @@
 #!/bin/sh
 set -eu
 
-# TiviMateE2 Installer — Version 1.0.33-r142 (Python 3 + Python 2.7)
+# TiviMateE2 Installer — Version 1.0.34-r143 (Python 3 + Python 2.7)
 
 BASE="https://raw.githubusercontent.com/opesboy/TiviMateE2/main"
 
-IPK="enigma2-plugin-extensions-tivimatee2_1.0.33_all.ipk"
-DEB="enigma2-plugin-extensions-tivimatee2_1.0.33_all.deb"
+IPK="enigma2-plugin-extensions-tivimatee2_1.0.34_all.ipk"
+DEB="enigma2-plugin-extensions-tivimatee2_1.0.34_all.deb"
 
-IPK_SHA256="44964a764ddff739f4ed552cb8a0a82870eac6cdbb388af0c1281ed3f01ab062"
-DEB_SHA256="18eec7e5144f5ccdb6d8d026609f8f93fb580d6c29b8b7a5ea707beabed02e8d"
+IPK_SHA256="8ebf8fedfd5b6994fa79b5fd86d990150aaba2e97f27d4538f2bbf7201c790f0"
+DEB_SHA256="8ebf8fedfd5b6994fa79b5fd86d990150aaba2e97f27d4538f2bbf7201c790f0"
 
 if command -v dpkg >/dev/null 2>&1; then F="$DEB"; S="$DEB_SHA256"; else F="$IPK"; S="$IPK_SHA256"; fi
 P="/tmp/$F"
@@ -24,6 +24,6 @@ else
 fi
 rm -f "$P"
 
-echo "TiviMateE2 1.0.33-r142 installed. Restarting Enigma2..."
+echo "TiviMateE2 1.0.34-r143 installed. Restarting Enigma2..."
 sleep 2
 killall -9 enigma2 || true
