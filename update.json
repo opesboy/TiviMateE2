@@ -1,15 +1,15 @@
 {
-  "revision": 143,
-  "version": "1.0.34",
-  "notes": "TiviMateE2 1.0.34 - Update 143 - New design for Server Manager, Edit Server, Add Server, Package Filter, Server Status, Image Cache, Subtitle and Subtitle API, packages menu on every poster style (Apple, Cinematic, Genre Grid, Circular, Poster, Classic, Latest), faster actor search (Arabic and foreign, Movies and TV Shows), faster cached posters on Python 2.7, one backdrop/poster/logo path for Python 3 and 2.7, M3U download check (BOM, gzip, Arabic groups), playlists.txt edits by FTP/DCC are kept, cleaner install, VTi fixes, Python 3 + 2.7.",
+  "revision": 144,
+  "version": "1.0.35",
+  "notes": "TiviMateE2 1.0.35 - Update 144 - Faster pages on Python 2.7 and 3, posters load first on every page, better TMDb matching for Arabic titles (film/series labels, coming-soon tags), correct cast, missing stories fixed, Apple poster layout for Movies and TV Shows, film logo or Arabic + English name in Details, faster backdrops, VTi fixes (trailer, Arabic genres), crash fixes, Web Access starts by itself after an update or restart, new installer look, Python 3 + 2.7.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.34_all.ipk",
-      "sha256": "8ebf8fedfd5b6994fa79b5fd86d990150aaba2e97f27d4538f2bbf7201c790f0"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.35_all.ipk",
+      "sha256": "94055f79c53170e009532577ff60fb70a74829d7c0074462ddb7a65fa33311bd"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.34_all.deb",
-      "sha256": "8ebf8fedfd5b6994fa79b5fd86d990150aaba2e97f27d4538f2bbf7201c790f0"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.35_all.deb",
+      "sha256": "94055f79c53170e009532577ff60fb70a74829d7c0074462ddb7a65fa33311bd"
     }
   }
 }
