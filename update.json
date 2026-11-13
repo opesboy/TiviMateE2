@@ -1,15 +1,16 @@
+
 {
-  "revision": 144,
-  "version": "1.0.35",
-  "notes": "TiviMateE2 1.0.35 - Update 144 - Faster pages on Python 2.7 and 3, posters load first on every page, better TMDb matching for Arabic titles (film/series labels, coming-soon tags), correct cast, missing stories fixed, Apple poster layout for Movies and TV Shows, film logo or Arabic + English name in Details, faster backdrops, VTi fixes (trailer, Arabic genres), crash fixes, Web Access starts by itself after an update or restart, new installer look, Python 3 + 2.7.",
+  "revision": 145,
+  "version": "1.0.36",
+  "notes": "TiviMateE2 1.0.36 - Update 145 - Removed legacy web PIN/login/session authentication in Python 2.7 and 3; QR code opens the Web Manager directly. Includes improvements from Update 144.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.35_all.ipk",
-      "sha256": "94055f79c53170e009532577ff60fb70a74829d7c0074462ddb7a65fa33311bd"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.36_all.ipk",
+      "sha256": "07b4b811ca92987537d70618da053205f73d7b551ca51bf0a91780779d508e3c"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.35_all.deb",
-      "sha256": "94055f79c53170e009532577ff60fb70a74829d7c0074462ddb7a65fa33311bd"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.36_all.deb",
+      "sha256": "07b4b811ca92987537d70618da053205f73d7b551ca51bf0a91780779d508e3c"
     }
   }
 }
