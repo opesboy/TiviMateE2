@@ -1,13 +1,14 @@
+
 #!/bin/sh
-# TiviMateE2 Installer - Version 1.0.35-r144 (Python 3 + Python 2.7)
+# TiviMateE2 Installer - Version 1.0.36-r145 (Python 3 + Python 2.7)
 # wget -q --no-check-certificate "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/installer.sh" -O - | /bin/sh
 
-VERSION="1.0.35-r144"
+VERSION="1.0.36-r145"
 BASE="https://raw.githubusercontent.com/opesboy/TiviMateE2/main"
-IPK="enigma2-plugin-extensions-tivimatee2_1.0.35_all.ipk"
-DEB="enigma2-plugin-extensions-tivimatee2_1.0.35_all.deb"
+IPK="enigma2-plugin-extensions-tivimatee2_1.0.36_all.ipk"
+DEB="enigma2-plugin-extensions-tivimatee2_1.0.36_all.deb"
 PKG_NAME="enigma2-plugin-extensions-tivimatee2"
-SHA256="94055f79c53170e009532577ff60fb70a74829d7c0074462ddb7a65fa33311bd"
+SHA256="07b4b811ca92987537d70618da053205f73d7b551ca51bf0a91780779d508e3c"
 NEED_KB=60000
 
 ok()   { echo "[ OK ] $*"; }
@@ -16,20 +17,25 @@ fail() { echo "[FAIL] $*"; exit 1; }
 
 cat <<'BANNER'
 
- _____  _         _  __  __         _
-|_   _|(_)__   __(_)|  \/  |  __ _ | |_   ___
-  | |  | |\ \ / /| || |\/| | / _` || __| / _ \
-  | |  | | \ V / | || |  | || (_| || |_ |  __/
-  |_|  |_|  \_/  |_||_|  |_| \__,_| \__| \___|
+ _______  ___   __   __  ___   __   __  _______  _______  _______
+|       ||   | |  | |  ||   | |  |_|  ||   _   ||       ||       |
+|_     _||   | |  |_|  ||   | |       ||  |_|  ||_     _||    ___|
+  |   |  |   | |       ||   | |       ||       |  |   |  |   |___
+  |   |  |   | |       ||   | |       ||       |  |   |  |    ___|
+  |   |  |   |  |     | |   | | ||_|| ||   _   |  |   |  |   |___
+  |___|  |___|   |___|  |___| |_|   |_||__| |__|  |___|  |_______|
 
-        _____  ____
-       | ____||___ \
-       |  _|    __) |
-       | |___  / __/
-       |_____||_____|
+                       _______  _______
+                      |       ||       |
+                      |    ___||____   |
+                      |   |___  ____|  |
+                      |    ___|| ______|
+                      |   |___ | |_____
+                      |_______||_______|
 
-     TiviMate - online installer
-     ---------------------------------
+                TiviMate E2 - online installer
+                 Version 1.0.36-r145
+     -------------------------------------------------------------
 BANNER
 echo "--------------------------------------------"
 
