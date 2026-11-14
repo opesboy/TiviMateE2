@@ -1,16 +1,16 @@
 
 {
-  "revision": 145,
-  "version": "1.0.36",
-  "notes": "TiviMateE2 1.0.36 - Update 145 - Removed legacy web PIN/login/session authentication in Python 2.7 and 3; QR code opens the Web Manager directly. Includes improvements from Update 144.",
+  "revision": 146,
+  "version": "1.0.37",
+  "notes": "TiviMateE2 1.0.37 - Update 146 - Stalker native Enigma2 bouquet export with renewable stream links, Python 2.7 Unicode/UTF-8 export fix for Arabic channel names, Actor Spotlight for Movies and TV Series with title logos, and previous improvements for Python 3 and 2.7.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.36_all.ipk",
-      "sha256": "07b4b811ca92987537d70618da053205f73d7b551ca51bf0a91780779d508e3c"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.37_all.ipk",
+      "sha256": "38425b2c4c0b2587c8c13e629c830b885b7d8b8028e6a3dc5865679d9349ef67"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.36_all.deb",
-      "sha256": "07b4b811ca92987537d70618da053205f73d7b551ca51bf0a91780779d508e3c"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.37_all.deb",
+      "sha256": "38425b2c4c0b2587c8c13e629c830b885b7d8b8028e6a3dc5865679d9349ef67"
     }
   }
 }
