@@ -1,16 +1,16 @@
 
 {
-  "revision": 146,
-  "version": "1.0.37",
-  "notes": "TiviMateE2 1.0.37 - Update 146 - Stalker native Enigma2 bouquet export with renewable stream links, Python 2.7 Unicode/UTF-8 export fix for Arabic channel names, Actor Spotlight for Movies and TV Series with title logos, and previous improvements for Python 3 and 2.7.",
+  "revision": 147,
+  "version": "1.0.38",
+  "notes": "TiviMateE2 1.0.38 - Update 147 - Python 2.7 Cinematic, GENRE Poster and Apple top-to-bottom poster loading, stable poster layout, improved cache protection, safe cleanup, and previous Python 3 and 2.7 improvements.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.37_all.ipk",
-      "sha256": "38425b2c4c0b2587c8c13e629c830b885b7d8b8028e6a3dc5865679d9349ef67"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.38_all.ipk",
+      "sha256": "00472edd380cc0a943f9ed8a426f308fba10bc73d03f94b58332909e97ef3150"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.37_all.deb",
-      "sha256": "38425b2c4c0b2587c8c13e629c830b885b7d8b8028e6a3dc5865679d9349ef67"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.38_all.deb",
+      "sha256": "00472edd380cc0a943f9ed8a426f308fba10bc73d03f94b58332909e97ef3150"
     }
   }
 }
