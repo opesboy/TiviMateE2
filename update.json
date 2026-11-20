@@ -1,16 +1,16 @@
 
 {
-  "revision": 147,
-  "version": "1.0.38",
-  "notes": "TiviMateE2 1.0.38 - Update 147 - Python 2.7 Cinematic, GENRE Poster and Apple top-to-bottom poster loading, stable poster layout, improved cache protection, safe cleanup, and previous Python 3 and 2.7 improvements.",
+  "revision": 148,
+  "version": "1.0.39",
+  "notes": "TiviMateE2 1.0.39-r148 - Live channel search, inline movie and series poster search, layout fixes, and Python 2.7 VTi compatibility improvements.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.38_all.ipk",
-      "sha256": "00472edd380cc0a943f9ed8a426f308fba10bc73d03f94b58332909e97ef3150"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.39_all.ipk",
+      "sha256": "a4f147f5c87ddb8c2fb0632e7d3ca66053307ce8c9ef23928d5fca7f65a3cf88"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.38_all.deb",
-      "sha256": "00472edd380cc0a943f9ed8a426f308fba10bc73d03f94b58332909e97ef3150"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.39_all.deb",
+      "sha256": "a4f147f5c87ddb8c2fb0632e7d3ca66053307ce8c9ef23928d5fca7f65a3cf88"
     }
   }
 }
