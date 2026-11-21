@@ -1,16 +1,16 @@
 
 {
-  "revision": 148,
-  "version": "1.0.39",
-  "notes": "TiviMateE2 1.0.39-r148 - Live channel search, inline movie and series poster search, layout fixes, and Python 2.7 VTi compatibility improvements.",
+  "revision": 149,
+  "version": "1.0.40",
+  "notes": "TiviMateE2 1.0.40-r149 - Updated release for Python 3 and Python 2.7.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.39_all.ipk",
-      "sha256": "a4f147f5c87ddb8c2fb0632e7d3ca66053307ce8c9ef23928d5fca7f65a3cf88"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.40_all.ipk",
+      "sha256": "dcca2cfa2691a47dd53a44358ea8fcf504bfb84c5fed4ed7bcc9f60738809794"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.39_all.deb",
-      "sha256": "a4f147f5c87ddb8c2fb0632e7d3ca66053307ce8c9ef23928d5fca7f65a3cf88"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.40_all.deb",
+      "sha256": "dcca2cfa2691a47dd53a44358ea8fcf504bfb84c5fed4ed7bcc9f60738809794"
     }
   }
 }
