@@ -1,16 +1,16 @@
 
 {
-  "revision": 149,
-  "version": "1.0.40",
-  "notes": "TiviMateE2 1.0.40-r149 - Updated release for Python 3 and Python 2.7.",
+  "revision": 150,
+  "version": "1.0.41",
+  "notes": "TiviMateE2 1.0.41-r150 - Updated release for Python 3 and Python 2.7.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.40_all.ipk",
-      "sha256": "dcca2cfa2691a47dd53a44358ea8fcf504bfb84c5fed4ed7bcc9f60738809794"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.41_all.ipk",
+      "sha256": "0cbbb85173c4bb165f4c0739f8ea9c9a7c0364c5b3687a3e29497e6ad18dd50e"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.40_all.deb",
-      "sha256": "dcca2cfa2691a47dd53a44358ea8fcf504bfb84c5fed4ed7bcc9f60738809794"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.41_all.deb",
+      "sha256": "0cbbb85173c4bb165f4c0739f8ea9c9a7c0364c5b3687a3e29497e6ad18dd50e"
     }
   }
 }
