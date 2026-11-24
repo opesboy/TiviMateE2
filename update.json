@@ -1,1 +1,16 @@
 
+{
+  "revision": 151,
+  "version": "1.0.42",
+  "notes": "TiviMateE2 1.0.42-r151 - Catch-up, improved Live performance, subtitle reliability, language synchronization and UI improvements.",
+  "packages": {
+    "ipk": {
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.42_all.ipk",
+      "sha256": "b2dcf82e293170b6bd11a268545578239869d150c77b9557114f8731e8e3f1d6"
+    },
+    "deb": {
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.42_all.deb",
+      "sha256": "b2dcf82e293170b6bd11a268545578239869d150c77b9557114f8731e8e3f1d6"
+    }
+  }
+}
