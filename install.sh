@@ -7,7 +7,7 @@ BASE="https://raw.githubusercontent.com/opesboy/TiviMateE2/main"
 IPK="enigma2-plugin-extensions-tivimatee2_1.0.42_all.ipk"
 DEB="enigma2-plugin-extensions-tivimatee2_1.0.42_all.deb"
 PKG_NAME="enigma2-plugin-extensions-tivimatee2"
-SHA256="fd195a06d0ac2e0ae49e3efec29c17536f7095c69fbf5cf8f72fa16846f77abb"
+SHA256="b2dcf82e293170b6bd11a268545578239869d150c77b9557114f8731e8e3f1d6"
 NEED_KB=60000
 
 ok()   { echo "[ OK ] $*"; }
