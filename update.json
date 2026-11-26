@@ -1,15 +1,15 @@
 {
-  "revision": 152,
-  "version": "1.0.43",
-  "notes": "TiviMateE2 1.0.43-r152 - Improved performance, memory management, cache and startup speed, Live playback and subtitles, next-episode countdown, logo alignment, transparent flags, picon improvements and OpenPLi 9 TV Guide fixes. Python 3 and Python 2.7.",
+  "revision": 153,
+  "version": "1.0.44",
+  "notes": "TiviMateE2 1.0.44-r153 - Subtitle remote control fixes, manual and automatic subtitle search, Live shortcuts, configurable picon backgrounds and restored player logo. Python 3 and Python 2.7.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.43_all.ipk",
-      "sha256": "ad2abe426e0b6dc87fe01b19a7ce85560cd25d4ec11545ee1cdb71a4eca0aff0"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.44_all.ipk",
+      "sha256": "1d719ef67b58752c9d7fdcd3773134ddb43b9b2ebe80d48e4ea0f174db988527"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.43_all.deb",
-      "sha256": "ad2abe426e0b6dc87fe01b19a7ce85560cd25d4ec11545ee1cdb71a4eca0aff0"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.44_all.deb",
+      "sha256": "1d719ef67b58752c9d7fdcd3773134ddb43b9b2ebe80d48e4ea0f174db988527"
     }
   }
 }
