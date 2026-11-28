@@ -1,15 +1,15 @@
 {
-  "revision": 153,
-  "version": "1.0.44",
-  "notes": "TiviMateE2 1.0.44-r153 - Subtitle remote control fixes, manual and automatic subtitle search, Live shortcuts, configurable picon backgrounds and restored player logo. Python 3 and Python 2.7.",
+  "revision": 154,
+  "version": "1.0.45",
+  "notes": "TiviMateE2 1.0.45-r154 - Improved subtitle providers, unified subtitle search and source aggregation, accurate movie year and episode matching, improved subtitle activation, restored UI resources and enhanced compatibility with VU+ and Dreambox images. Python 3 and Python 2.7.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.44_all.ipk",
-      "sha256": "1d719ef67b58752c9d7fdcd3773134ddb43b9b2ebe80d48e4ea0f174db988527"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.45_all.ipk",
+      "sha256": "10f41ac72dbef1b4815d37834523ee82ced30d440ff1bcd6c8f11da7f77bbe80"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.44_all.deb",
-      "sha256": "1d719ef67b58752c9d7fdcd3773134ddb43b9b2ebe80d48e4ea0f174db988527"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.45_all.deb",
+      "sha256": "10f41ac72dbef1b4815d37834523ee82ced30d440ff1bcd6c8f11da7f77bbe80"
     }
   }
 }
