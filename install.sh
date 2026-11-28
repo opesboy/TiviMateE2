@@ -1,13 +1,13 @@
 #!/bin/sh
-# TiviMateE2 Installer - Version 1.0.44-r153 (Python 3 + Python 2.7)
+# TiviMateE2 Installer - Version 1.0.45-r154 (Python 3 + Python 2.7)
 # wget -q --no-check-certificate "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/install.sh" -O - | /bin/sh
 
-VERSION="1.0.44-r153"
+VERSION="1.0.45-r154"
 BASE="https://raw.githubusercontent.com/opesboy/TiviMateE2/main"
-IPK="enigma2-plugin-extensions-tivimatee2_1.0.44_all.ipk"
-DEB="enigma2-plugin-extensions-tivimatee2_1.0.44_all.deb"
+IPK="enigma2-plugin-extensions-tivimatee2_1.0.45_all.ipk"
+DEB="enigma2-plugin-extensions-tivimatee2_1.0.45_all.deb"
 PKG_NAME="enigma2-plugin-extensions-tivimatee2"
-SHA256="1d719ef67b58752c9d7fdcd3773134ddb43b9b2ebe80d48e4ea0f174db988527"
+SHA256="10f41ac72dbef1b4815d37834523ee82ced30d440ff1bcd6c8f11da7f77bbe80"
 NEED_KB=60000
 
 ok()   { echo "[ OK ] $*"; }
@@ -19,9 +19,9 @@ cat <<'BANNER'
  _______  ___   __   __  ___   __   __  _______  _______  _______
 |       ||   | |  | |  ||   | |  |_|  ||   _   ||       ||       |
 |_     _||   | |  |_|  ||   | |       ||  |_|  ||_     _||    ___|
-  |   |  |   | |       ||   | |       |  |   |  |  |   |  |   |___
-  |   |  |   | |       ||   | |       ||       |  |   |  |    ___|
-  |   |  |   | |  |     | |   | | ||_|| ||   _   |  |   |  |   |___
+  |   |  |   | |       ||   | |       |  |   |  |  |   | |   |___
+  |   |  |   | |       ||   | |       ||       |  |   | |    ___|
+  |   |  |   |  |     | |   | | ||_|| ||   _   |  |   | |   |___
   |___|  |___|   |___|  |___| |_|   |_||__| |__|  |___|  |_______|
 
                        _______  _______
@@ -33,7 +33,7 @@ cat <<'BANNER'
                       |_______||_______|
 
                 TiviMate E2 - online installer
-                 Version 1.0.44-r153
+                 Version 1.0.45-r154
      -------------------------------------------------------------
 BANNER
 echo "--------------------------------------------"
