@@ -1,13 +1,13 @@
 #!/bin/sh
-# TiviMateE2 Installer - Version 1.0.45-r154 (Python 3 + Python 2.7)
+# TiviMateE2 Installer - Version 1.0.46-r155 (Python 3 + Python 2.7)
 # wget -q --no-check-certificate "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/install.sh" -O - | /bin/sh
 
-VERSION="1.0.45-r154"
+VERSION="1.0.46-r155"
 BASE="https://raw.githubusercontent.com/opesboy/TiviMateE2/main"
-IPK="enigma2-plugin-extensions-tivimatee2_1.0.45_all.ipk"
-DEB="enigma2-plugin-extensions-tivimatee2_1.0.45_all.deb"
+IPK="enigma2-plugin-extensions-tivimatee2_1.0.46_all.ipk"
+DEB="enigma2-plugin-extensions-tivimatee2_1.0.46_all.deb"
 PKG_NAME="enigma2-plugin-extensions-tivimatee2"
-SHA256="10f41ac72dbef1b4815d37834523ee82ced30d440ff1bcd6c8f11da7f77bbe80"
+SHA256="bb64dd5fcc77b4746188326155978ae9e627ca951292fd6b493f44aa27751c5e"
 NEED_KB=60000
 
 ok()   { echo "[ OK ] $*"; }
@@ -19,10 +19,10 @@ cat <<'BANNER'
  _______  ___   __   __  ___   __   __  _______  _______  _______
 |       ||   | |  | |  ||   | |  |_|  ||   _   ||       ||       |
 |_     _||   | |  |_|  ||   | |       ||  |_|  ||_     _||    ___|
-  |   |  |   | |       ||   | |       |  |   |  |  |   | |   |___
-  |   |  |   | |       ||   | |       ||       |  |   | |    ___|
-  |   |  |   |  |     | |   | | ||_|| ||   _   |  |   | |   |___
-  |___|  |___|   |___|  |___| |_|   |_||__| |__|  |___|  |_______|
+  |   |  |   | |       ||   | |       |  |   |  |  |   |  |   |___
+  |   |  |   | |       ||   | |       ||       |  |   |  |    ___|
+  |   |  |   | |  |    | |   | | ||_|| ||   _   |  |   |  |   |___
+  |___|  |___|  |___|  |___| |_|   |_||__| |__|  |___|  |_______|
 
                        _______  _______
                       |       ||       |
@@ -33,7 +33,7 @@ cat <<'BANNER'
                       |_______||_______|
 
                 TiviMate E2 - online installer
-                 Version 1.0.45-r154
+                 Version 1.0.46-r155
      -------------------------------------------------------------
 BANNER
 echo "--------------------------------------------"
