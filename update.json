@@ -1,15 +1,15 @@
 {
-  "revision": 154,
-  "version": "1.0.45",
-  "notes": "TiviMateE2 1.0.45-r154 - Improved subtitle providers, unified subtitle search and source aggregation, accurate movie year and episode matching, improved subtitle activation, restored UI resources and enhanced compatibility with VU+ and Dreambox images. Python 3 and Python 2.7.",
+  "revision": 155,
+  "version": "1.0.46",
+  "notes": "TiviMateE2 1.0.46-r155 - Three subtitle search engines: TiviMate Subtitles, SubsSupport and SubsSupportPro, with All Sources aggregation in the original TiviMate interface. Improved Web Access startup. Python 3 and Python 2.7; external subtitle engines require compatible installations.",
   "packages": {
     "ipk": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.45_all.ipk",
-      "sha256": "10f41ac72dbef1b4815d37834523ee82ced30d440ff1bcd6c8f11da7f77bbe80"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.46_all.ipk",
+      "sha256": "bb64dd5fcc77b4746188326155978ae9e627ca951292fd6b493f44aa27751c5e"
     },
     "deb": {
-      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.45_all.deb",
-      "sha256": "10f41ac72dbef1b4815d37834523ee82ced30d440ff1bcd6c8f11da7f77bbe80"
+      "url": "https://raw.githubusercontent.com/opesboy/TiviMateE2/main/enigma2-plugin-extensions-tivimatee2_1.0.46_all.deb",
+      "sha256": "bb64dd5fcc77b4746188326155978ae9e627ca951292fd6b493f44aa27751c5e"
     }
   }
 }
